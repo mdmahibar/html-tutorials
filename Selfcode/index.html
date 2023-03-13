@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <h3 align="center"><u>Registration From Of New SelfMade Students</u></h3>
+    </header>
+
+    <main align="center">
+        <form action="/Selfcode/Home.html">
+            <!-- To take input of Name,Email,Password -->
+            <div align="center">
+                Name: <input type="text" name="name" id="01" placeholder="Enter Your Name"><br><br>
+                Email: <input type="email" name="email" id="02" placeholder="example@gmail.com"><br><br>
+                Password: <input type="password" name="password" id="03"><br><br>
+            </div>
+            <!-- To take class information with radio button -->
+            <div>
+                <h4>Select Your Class: </h4>
+                <label for="001">
+                    Class 11: <input type="radio" name="class" id="001">
+                </label>
+                <label for="002">
+                    Class 12: <input type="radio" name="class" id="002">
+                </label>
+            </div>
+            <!-- To select your interest with checkbox-->
+            <div>
+                <h4>Select your interest: </h4>
+                    Java: <input type="checkbox" name="inter" id="">
+                    C++: <input type="checkbox" name="inter" id="">
+                    Python: <input type="checkbox" name="inter" id="">
+            </div>
+            <!-- To select your city with select tag -->
+            <div>
+                <h4>Choose your city: </h4>
+                <select name="city" id="city">
+                    <option value="delhi">delhi</option>
+                    <option value="mumbai">mumbai</option>
+                    <option value="bangalore">bangalore</option>
+                    <option value="kolkata">kolkata</option>
+                </select>
+            </div>
+            <!-- To take some information about new student with textarea  -->
+            <div>
+                <p>Your Information: </p>
+                <textarea name="feedback" id="004" cols="30" rows="10">Write something about yourself</textarea>
+            </div>
+            <!-- Lastly submit all the details or save it with input or button type  -->
+            <div>
+                <input type="submit" name="submit" id="">
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
